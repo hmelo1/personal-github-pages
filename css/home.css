@@ -6,7 +6,7 @@ body {
 
 h2{
 	font-family: 'Michroma', sans-serif;
-	font-size: 22px;
+	font-size: 1em;
 	color: black;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -226,4 +226,48 @@ i{
 
 #footer i:hover{
 	opacity: 0.6;
+}
+
+@media screen and (max-width: 500px){
+	#skills{
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 505px){
+	#skills{
+		width: 33%;
+	}
+}
+
+#skills {
+	border-collapse: collapse;
+	float:left;
+}
+
+td {
+	text-align: center;
+}
+
+th {
+	font-size: 1.5em;
+}
+
+.skillsTablehr {
+	color: orange;
+	background-color: orange;
+	height: 1px;
+	width: 25%;
+}
+
+/* icons */
+
+.skillsTableIcon {
+	text-align: center;
+	font-size: 3.5rem;
+	display: block;
+}
+
+.fa {
+	font-size: 2rem;
 }
