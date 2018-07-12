@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- imports js -->
+	<script type="text/javascript" src="scripts/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery-ui.js"></script>
+	<script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="scripts/index.js"></script>
+
+	<!-- imports css -->
+	<link href="css/home.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cuprum:100,400|Voltaire:400|Michroma|Open+Sans+Condensed:300">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	<!-- Add Mosiac -->
+	<script type="text/javascript" src="scripts/mosaic.1.0.1.js"></script>
+	<link rel="stylesheet" href="css/mosaic.css" type="text/css" media="screen" />
+
+	<base href="">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
+
+	<!-- Extra meta tags-->
+	<title>Heriberto Melo</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/web_hi_res_512.png" />
+	<meta property="og:site_name" content="Heriberto Melo" />
+	<meta property="og:title" content="WORK" />
+	<meta property="og:url" content="http://www.heriberto.melo.nyc" />
+	<meta property="og:type" content="website" />
+	<meta itemprop="name" content="WORK" />
+	<meta itemprop="url" content="http://www.heriberto.melo.nyc" />
+	<meta name="description" content="Why's that bard staring at the wall?" />
+
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="fixed">
+			<div id="title">
+				Heriberto Melo
+			</div>
+			<div id="navigation">
+				<ul>
+					<li>
+						<a class="fancybox" rel="resume" href="https://resume.creddle.io/resume/hbb53whg8vi">
+							<i class="fa fa-file-text-o"></i>Resume</a>
+					</li>
+					<li>
+						<a href="index.html">
+							<i class="fa fa-commenting-o"></i>About</a>
+					</li>
+					<li>
+						<a href="mailto:heriberto@melo.nyc">
+							<i class="fa fa-envelope-o"></i>Contact</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="content">
+				<div id="bannerPortfolio" data-scroll-speed="6">
+					<img src="images/banner.png">
+				</div>
+				<div id="text" data-scroll-speed="1">
+					<h2 align="center">Published Projects</h2>
+					<div id="projects">
+
+						<div class="mosaic-block-max bar">
+							<a class="fancybox" rel="group" href="https://warm-scrubland-67229.herokuapp.com" target="_blank" title="Pho-Nomenal">
+								<div class="mosaic-overlay">
+									<div class="details">
+										<h4>Pho-Nomenal</h4>
+										<p>Menu for my restaurant</p>
+									</div>
+								</div>
+								<div class="mosaic-backdrop">
+									<img src="images/thumbs/phonomenalpreview.jpg" />
+								</div>
+							</a>
+						</div>
+
+						<div class="mosaic-block-max bar">
+							<a class="fancybox" rel="group" href="https://radiant-wave-43611.herokuapp.com" title="MyGameList">
+								<div class="mosaic-overlay">
+									<div class="details">
+										<h4>MyGameList</h4>
+										<p>Safely store video games</p>
+									</div>
+								</div>
+								<div class="mosaic-backdrop">
+									<img src="images/thumbs/gamelistPreview.png" />
+								</div>
+							</a>
+						</div>
+
+						<h2 align="center">Unpublished Projects</h2>
+						<div id="projects">
+
+							<div class="mosaic-block-min bar">
+								<a class="fancybox" rel="group" href="https://github.com/hmelo1/nerdbod" target="_blank" title="NerdBod">
+									<div class="mosaic-overlay">
+										<div class="details">
+											<h4>Nerdbod</h4>
+											<p>Fitness Tracker</p>
+										</div>
+									</div>
+									<div class="mosaic-backdrop">
+										<img src="images/thumbs/fitnesspreview.jpg" />
+									</div>
+								</a>
+							</div>
+
+							<div class="mosaic-block-min bar">
+								<a class="fancybox" rel="group" href="https://github.com/hmelo1/sinatra-recipes-organizer" title="Nom Nom Recipes">
+									<div class="mosaic-overlay">
+										<div class="details">
+											<h4>Nom Nom</h4>
+											<p>Recipe tracker</p>
+										</div>
+									</div>
+									<div class="mosaic-backdrop">
+										<img src="images/thumbs/nomnompreview.jpg" />
+									</div>
+								</a>
+							</div>
+
+							<div class="mosaic-block-min bar">
+								<a class="fancybox" rel="group" href="https://github.com/hmelo1/steam_deals_cli" title="Steam Deals CLI">
+									<div class="mosaic-overlay">
+										<div class="details">
+											<h4>Steam Web Scraper</h4>
+											<p>Pulls Steam Deals</p>
+										</div>
+									</div>
+									<div class="mosaic-backdrop">
+										<img src="images/thumbs/steampreview.png" />
+									</div>
+								</a>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+				<div id="footer" style="clear: both;">
+					<a href="https://github.com/hmelo1/" target="_blank">
+						<i class="fa fa-github-square fa-4x"></i>
+					</a>
+					<a href="https://www.linkedin.com/in/heriberto-melo" target="_blank">
+						<i class="fa fa-linkedin-square fa-4x"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+</body>
+
+</html>
